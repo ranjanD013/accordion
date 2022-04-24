@@ -1,0 +1,20 @@
+.container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.mainwborder { width:700px; background: #fff; border: 1px solid #ccc; margin:50px auto; box-shadow: 1px 0px 5px #282c34;
+border-radius: 10px; padding: 10px 40px;  background:#f4f4f4; }
+.mainwborder > p{}
+h1, h3 { text-align: center;}
+
+h3{ margin: 10px; font-size: 18px; font-weight: 400;}
+.mainTitle { background:#cfcfcf; margin-bottom: 15px; padding-left: 10px; border-radius: 5px;}
+.mainTitle p { display: inline; padding: 5px; cursor: pointer;}
+.mainTitle h3 { display: inline-block; color: #282c34;}
